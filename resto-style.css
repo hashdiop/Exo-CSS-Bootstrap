@@ -1,0 +1,25 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+    height: 200px;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo-reseau{
+  transition: all 0.5s ;
+}
+
+.logo-reseau:hover{
+  transform: scale(1.09);
+  
+}
